@@ -1,0 +1,172 @@
+.main-page {
+   
+    width: 610px;
+    height: 425px;
+    border-width: 2px;
+    margin: 30px auto 5px auto;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border-radius: 2%;
+    background: linear-gradient(#fdfeff,#d5fefd);
+    display: block;
+ 
+    
+}
+
+.city-search {
+    margin: 35px 0 0 40px;
+    width: 340px;
+    height: 37px;
+    border-color: #7d76e5;
+    border-radius: 5px;
+    border-width: 2px;
+   font-size: 20px;
+    
+}
+.search-button {
+    height: 37px;
+    padding: 3px 5px;
+    color: #45bf4d;
+    border-color: #45bf4d;
+    margin: 35px 5px 0 0;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 20px;
+   
+}
+.current-button {
+    height: 37px;
+    padding: 3px 9px;
+    color: #45bf4d;
+    border-color: #45bf4d;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 20px;
+    margin-top: 35px;
+   
+}
+.currently {
+   width: 200px;
+   height: 35px;
+    
+}
+.current-city {
+    background: none;
+border: none;
+color: #6852a3;
+font-size: 33px;
+padding: 0 0 3px 40px;
+
+}
+.current-time {
+    border: none;
+padding: 0 0 7px 40px;
+font-size: 19px;
+background:none;
+
+}
+.current-temperature {
+    background: none;
+border: none;
+padding: 0 0 5px 40px;
+font-size: 24px;
+}
+
+.current-weather {
+    background: none;
+    border: none;
+    padding: 0 0 0 40px;
+    font-size: 21px;
+    color: lightslategray;
+}
+
+.weather-details {
+    background: none;
+    width: 385px;
+    height: 110px;
+    margin:15px 0 0 190px;
+  border-radius: 7px;
+   border-width: 2px;
+   background: linear-gradient(#def2ff,#c1e7ff);
+   color: #510057;
+  
+
+}
+.humidity {
+margin: 15px 0 20px 10px;
+   font-size: 16px;
+
+}
+.wind-speed {
+ margin-top: 15px ;
+    font-size: 15px;
+
+}
+.visibility {
+margin: 5px 0 0 10px;
+    font-size: 16px;
+}
+.feels-like {
+    margin-top: 5px;
+    font-size: 16px;
+
+}
+.future-weather {
+margin: 50px 0 0 40px;
+display: block;
+  
+}
+.day-1 {
+    width: 90px;
+    height: 115px;
+    background: linear-gradient(#e5e0f2,#7a78ff);
+    border-radius: 5px;
+    font-size: 26px;
+    color: black;
+    margin-right: 20px;
+}
+.day-2 {
+    width: 90px;
+    height: 115px;
+    background: linear-gradient(#e5e0f2,#7a78ff);
+    border-radius: 5px;
+    font-size: 26px;
+    color: black;
+    margin-right: 20px;
+}
+.day-3 {
+  
+    width: 90px;
+    height: 115px;
+    background: linear-gradient(#e5e0f2,#7a78ff);
+    border-radius: 5px;
+    font-size: 26px;
+    color: black;
+    margin-right: 20px;
+}
+.day-4 {
+    width: 90px;
+    height: 115px;
+    background: linear-gradient(#e5e0f2,#7a78ff);
+    border-radius: 5px;
+    font-size: 26px;
+    color: black;
+    margin-right: 20px;
+}
+.day-5 {
+    width: 90px;
+    height: 115px;
+    background: linear-gradient(#e5e0f2,#7a78ff);
+    border-radius: 5px;
+    font-size: 26px;
+    color: black;
+    margin-right: 20px;
+}
+
+.my-name {
+
+ margin-left: 420px;
+ color: black;
+ font-size: 15px;
+
+}

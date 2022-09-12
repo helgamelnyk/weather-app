@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
+    <title>My project</title>
+    </head>
+    <body>
+      <div class="main-page">
+<p>
+  <form class="d-flex search-form" role="search" id="city-form">
+    <input class="form-control me-2 city-search" type="search" placeholder="Enter a city" aria-label="Enter a city" id="city-input">
+    <button class="btn btn-outline-success search-button" type="submit">Search</button>
+    <button class="btn btn-outline-success current-button" type="submit" id="current-location-button">Current</button>
+  </form>
+</p>
+<div class="currently" >
+<ul class="list-group">
+  <li class="list-group-item current-city" id="city"><strong></strong></li>
+  <li class="list-group-item current-time" id="time"></li>
+  <li class="list-group-item current-temperature">
+    <strong><span id="temperature"></span>
+  </strong> </li>
+  <li class="list-group-item current-weather" id="current-weather"></li>
+</ul>
+</div>
+<div class="container weather-details">
+
+  <div class="row">
+    <div class="col humidity" id="humidity"></div>
+    <div class="col wind-speed" id="wind-speed"></div>
+  </div>
+  <div class="row">
+    <div class="col visibility" id="visibility">
+  
+    </div>
+    <div class="col feels-like" id="feels-like">
+     
+    </div>
+  </div>
+  
+</div>
+<div class="container text-center future-weather">
+    <div class="row row-cols-5">
+      <div class="col day-1">Mon 25˚ ⛅️</div>
+      <div class="col day-2">Tue 23˚ 🌦</div>
+      <div class="col day-3">Wed 23˚ 🌧</div>
+      <div class="col day-4">Thu 24˚ ☀️</div>
+      <div class="col day-5">Fri 27˚ ☀️</div>
+    </div>
+  </div>
+
+  <script src="src/script.js" ></script>
+</div>
+<p class="my-name">Created by Olha Melnyk</p>
+    </body>
+    </html>
+
+ 
